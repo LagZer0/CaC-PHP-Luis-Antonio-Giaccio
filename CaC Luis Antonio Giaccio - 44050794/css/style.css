@@ -1,0 +1,428 @@
+
+/* header */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(250, 235, 215, 0.678);
+  }
+  
+header {
+    background-color: #555;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
+  
+  .img-logo {
+    width: 75px;
+    height: 40px;
+    padding-left: 3%;
+  }
+  
+  .titulo-header {
+    text-align: right;
+    margin-right: 40%;
+    color: rgb(255, 255, 255);
+  }
+  
+  .boton-container-header {
+    display: flex;
+
+  }
+  
+  .boton-header, .boton-verde-header {
+    font-size: 12px;
+    color: rgb(190, 187, 187);
+    background-color: #88888849;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    
+  }
+  
+  .boton-verde-header {
+    background-color: green;
+  }
+  
+
+/* div-inicio */
+.background-image {
+    background-image: url("../imagenes/casa_rosada_interior_1200.jpg");
+    background-size: cover;
+    background-position: center;
+    height:550px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .div-inicio {
+    margin-left: 50%;
+    margin-bottom: 120px;
+    padding: 20px;
+    text-align: right;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.692);
+    
+  }
+  
+  .titulo-inicio {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .parrafo-inicio {
+    font-size: 18px;
+  }
+  
+  .boton-container-inicio {
+    margin-top: 20px;
+  }
+  
+  .boton-inicio, .boton-inicio-verde  {
+    /* color: white; */
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .boton-inicio {
+    background-color: transparent;
+    border: 2px solid rgb(143, 133, 133);
+  }
+  
+  .boton-inicio-verde {
+    background-color: green;
+  }
+
+
+
+  /* Oradores */
+
+  .orador-titulo {
+    text-align: center;
+  }
+
+  .titulo-chiquito-oradores{
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .titulo-oradores {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+  }
+
+
+  .seccion-oradores {
+   background-color: rgba(250, 235, 215, 0.445);
+  }
+
+  .div-card-oradores {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .card-oradores {
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.664);
+    border-radius: 7px;
+    width: 400px;
+  }
+
+  .imagen-oradores{
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+  }
+
+  .caja-orador{
+    width: 50%;
+  }
+  
+  .boton-container-oradores {
+    margin-bottom: 15px;
+  }
+  
+  .nombre-oradores {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 25px;
+
+  }
+  
+  .descripcion-oradores {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .boton-container-oradores {
+    margin-left: 10px;
+  }
+
+  .boton-amarillo, .boton-azul, .boton-negocios, .boton-startups {
+    border: 0.5px solid rgba(0, 0, 0, 0.438);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  
+  .boton-amarillo {
+    background-color: hwb(56 4% 7%);
+    color: black;
+  }
+  
+  .boton-azul {
+    background-color: rgb(24, 158, 202);
+  }
+
+  .boton-negocios {
+    background-color: rgb(121, 121, 121);
+  }
+
+  .boton-startups {
+    background-color: rgb(230, 53, 53);
+  }
+
+
+  /* Lugar y Fecha */
+
+  .lugarFecha{
+        display: flex;
+        background-color: #888;
+  }
+
+  .divisor-imagen {
+    flex: 1;
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .divisor-imagen img {
+    width: 100%;
+    height: auto;
+  }
+
+  .titulo-lugarFecha {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .descripcion-lugarFecha {
+    font-size: 16px;
+  }
+
+  .boton-lugarFecha {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  /* formulario */
+
+  .formularios-forms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .form-container {
+    flex: 0 0 calc(50% - 5px);
+    padding: 10px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #777;
+  }
+  
+  .charla-titulo {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+
+  .texto-form, .boton-verde-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boton-verde-form {
+    display: block;
+    margin: 30px 0 0 25%;
+    width: 690px;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+  /* footer */
+
+  footer {
+    background-color: #346b99;
+    padding: 20px;
+    width: 97%;
+    margin-top: 10px;
+  }
+  
+  .footer-nav {
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 80px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+  /* hover */
+  .boton-header, .boton-verde-header, .boton-inicio, .boton-inicio-verde , .boton-amarillo, .boton-azul, .boton-negocios, .boton-startups  {
+    transition: 2s;
+  }
+  .boton-header:hover , .boton-verde-header:hover {
+    /* transition: 2s; */
+    transform: scale(1.055);
+    background-color: rgb(219, 63, 63);
+  }
+
+  .boton-inicio:hover , .boton-inicio-verde:hover {
+    /* transition: 2s; */
+    transform: scale(1.055);
+    background-color: rgb(80, 14, 202);
+    color: white;
+    border: none
+  }
+
+  .boton-amarillo:hover, .boton-azul:hover, .boton-negocios:hover, .boton-startups:hover {
+    /* transition: 2s; */
+    transform: scale(1.055);
+  }
+
+  .boton-amarillo:hover {
+    color: white;
+    background-color: rgb(24, 158, 202)
+  }
+
+  .boton-azul:hover {
+    color: black;
+    background-color: hwb(56 4% 7%)
+  }
+
+  .boton-negocios:hover {
+    background-color: rgb(230, 53, 53)
+  }
+
+  .boton-startups:hover {
+    background-color: rgb(121, 121, 121)
+  }
+
+
+  .boton-lugarFecha {
+    transition: 3s;
+  }
+
+  .boton-lugarFecha:hover {
+    transform: scale(1.5);
+  }
+
+
+  .boton-verde-form {
+    transition: 2s;
+  }
+
+  .boton-verde-form:hover {
+    transform: scale(1.1);
+    background-color: red;
+  }
+
+
+
+
+
+
+/* header {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(138, 125, 125, 0.76);
+    
+}
+
+.menuInicial {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuLink {
+    padding: 10px;
+    display: flex;
+    
+}
+
+.imagenCaC {
+    width: 50px;
+    height: 50px;
+} */
